@@ -1,1 +1,89 @@
+div[class*='one'] button:hover {
+  color: red;
+  background: yellow;
+}
 
+div[class*='two'] .link:hover {
+  background: green;
+}
+
+div[class*='three'] a:visited {
+  color: yellow;
+}
+
+div[class*='four'] #sidebar a:link {
+  color: red;
+}
+
+div[class*='five'] .btn:active {
+  background: blue;
+}
+
+div[class*='six'] .btn:focus {
+  color: orange;
+  background: orange;
+}
+
+div[class*='seven'] #target:target {
+  color: white;
+  background: green;
+}
+
+div[class*='eight'] input:checked ~ div {
+  color: white;
+  background: blue;
+}
+
+div[class*='nine'] p:lang(uk) {
+  color: blue;
+}
+
+div[class*='ten'] input:enabled {
+  color: red;
+  background: yellow;
+}
+
+div[class*='eleven'] input:disabled {
+  background: yellow;
+}
+
+div[class*='twelve'] input:read-write {
+  background: yellow;
+}
+
+div[class*='thirteen'] input:read-only {
+  background: yellow;
+}
+
+div[class*='fourteen'] input:valid {
+  background: green;
+}
+
+div[class*='fourteen'] input:invalid {
+  background: red;
+}
+
+div[class*='fifteen'] input:optional {
+  background-color: red;
+}
+
+div[class*='sixteen'] #quantity:out-of-range {
+  background: red;
+}
+
+div[class*='seventeen'] input:in-range {
+  color: red;
+}
+
+div[class*='eighteen'] input:placeholder-shown {
+  background: red;
+}
+
+div[class*='nineteen'] button:focus-within {
+  color: white;
+  background: yellow;
+}
+
+div[class*='twenty'] input:invalid {
+  background: red;
+}
